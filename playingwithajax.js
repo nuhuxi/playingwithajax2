@@ -16,8 +16,8 @@
                     type: 'GET',
                     url: 'server/playingwithajax.php',
                     data: 'ip=' + $('#searchip').val(),
-                    success: function(msg){
-                        $('#resultip').html(msg);
+                    success: function(billy){
+                        $('#resultip').html(billy);
                     }
                 }); //Ajax call
                 
